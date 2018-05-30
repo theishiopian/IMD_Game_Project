@@ -6,22 +6,7 @@ public class ProceduralGenerator : MonoBehaviour
 	public static int size;
 
 	[SerializeField]
-	GameObject cube;
-
-	static String[] roomShapes =
-	{
-		"CR",
-		"Er",
-		"Eu",
-		"El",
-		"Ed",
-		"Ul",
-		"Ur",
-		"Dl",
-		"Dr",
-		"Vr",
-		"Hr"
-	};
+	public GameObject[] Rooms;//initialized in the inspector, ignore the null warning
 
 	public enum RoomTypes
 	{
@@ -345,12 +330,6 @@ public class ProceduralGenerator : MonoBehaviour
 				break;
 			}
 		}
-
-		public override String ToString()
-		{
-			if (this == null)return "  ";
-			return roomShapes[(int)type];
-		}
 	}
 
 	public static Room[,] map;
@@ -377,10 +356,10 @@ public class ProceduralGenerator : MonoBehaviour
 		{
 			for (int x = -2; x <= 2; x++)
 			{
-				pos.Set((float)x,((float)y),0.0f);
-				if (getAtCoords(x, y) != null)//no, YOU'RE null, bitch!
+				pos.Set((float)x*6,((float)y*6),0.0f);//why this has to be 6 and not 8, I have no fucking clue. But hey, it works!
+				if (getAtCoords(x, y) != null)
 				{
-					Instantiate(cube, pos, Quaternion.identity);
+					Instantiate(Rooms[(int)getAtCoords(x, y).type], pos, Quaternion.identity);
 				}
 			}
 		}
