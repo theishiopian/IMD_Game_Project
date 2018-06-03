@@ -1,5 +1,7 @@
 ﻿using System;
 using UnityEngine;
+using System.Collections.Generic;
+using System.Linq;
 
 public class ProceduralGenerator : MonoBehaviour
 {
@@ -7,6 +9,9 @@ public class ProceduralGenerator : MonoBehaviour
 
 	[SerializeField]
 	public GameObject[] Rooms;//initialized in the inspector, ignore the null warning
+
+	[SerializeField]
+	public GameObject marker;//ditto
 
 	public enum RoomTypes
 	{
@@ -352,6 +357,8 @@ public class ProceduralGenerator : MonoBehaviour
 
 		Room start = new Room(RoomTypes.CROSS, 0, 0);
 
+		List<Vector3> roomOrder = new List<Vector3>();
+
 		for (int y = 2; y >= -2; y--)
 		{
 			for (int x = -2; x <= 2; x++)
@@ -359,9 +366,12 @@ public class ProceduralGenerator : MonoBehaviour
 				pos.Set((float)x*6,((float)y*6),0.0f);//why this has to be 6 and not 8, I have no fucking clue. But hey, it works!
 				if (getAtCoords(x, y) != null)
 				{
-					Instantiate(Rooms[(int)getAtCoords(x, y).type], pos, Quaternion.identity);
+					roomOrder.Add (pos);
+					Instantiate(Rooms [(int)getAtCoords (x, y).type], pos, Quaternion.identity);
 				}
 			}
 		}
+		//spawn boss room marker. will spawn boss room in the future
+		Instantiate (marker, roomOrder.Last(), Quaternion.identity);
 	}
 }
