@@ -13,7 +13,10 @@ public class ProceduralGenerator : MonoBehaviour
 	[SerializeField]
 	public GameObject marker;//ditto
 
-	public enum RoomTypes
+    [SerializeField]
+    public GameObject spawner;//double ditto
+
+    public enum RoomTypes
 	{
 		//11 in total, ya dingus
 		CROSS = 0,
@@ -368,6 +371,7 @@ public class ProceduralGenerator : MonoBehaviour
 				{
 					roomOrder.Add (pos);
 					Instantiate(Rooms [(int)getAtCoords (x, y).type], pos, Quaternion.identity);
+                    Instantiate(spawner, pos, Quaternion.identity);
 				}
 			}
 		}
