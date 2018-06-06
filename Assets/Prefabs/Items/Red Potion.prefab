@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 212607508221382206}
   - component: {fileID: 61797494353065442}
   - component: {fileID: 114268879546293458}
+  - component: {fileID: 95397225831536632}
   m_Layer: 0
   m_Name: Red Potion
   m_TagString: Untagged
@@ -67,6 +68,23 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.21815336, y: 0.2842114}
   m_EdgeRadius: 0
+--- !u!95 &95397225831536632
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1060197079871808}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 8e4d97b8805af40449825a92277eefd2, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!114 &114268879546293458
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -311,14 +329,14 @@ MonoBehaviour:
       variableCategoryIDs: 
     description: 
     docUrl: 
-    showStateLabel: 1
+    showStateLabel: 0
     maxLoopCount: 0
     watermark: 
     password: 
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -330,7 +348,7 @@ MonoBehaviour:
     handleTriggerEnter2D: 0
     handleTriggerExit2D: 0
     handleTriggerStay2D: 0
-    handleCollisionEnter2D: 1
+    handleCollisionEnter2D: 0
     handleCollisionExit2D: 0
     handleCollisionStay2D: 0
     handleTriggerEnter: 0
