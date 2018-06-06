@@ -55,6 +55,11 @@ MonoBehaviour:
     - 
     variableCategoryIDs: 00000000000000000000000000000000
   events:
-  - Die
   - Damage
   - Pickup
+  - Brown
+  - Green
+  - Orange
+  - Pink
+  - Purple
+  - Red
