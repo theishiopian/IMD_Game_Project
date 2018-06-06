@@ -21,8 +21,8 @@ GameObject:
   - component: {fileID: 4001890150809752}
   - component: {fileID: 212607508221382206}
   - component: {fileID: 61797494353065442}
-  - component: {fileID: 114268879546293458}
   - component: {fileID: 95303792507715970}
+  - component: {fileID: 114873438686241870}
   m_Layer: 0
   m_Name: Pink Potion
   m_TagString: Untagged
@@ -37,7 +37,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1060197079871808}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.5380001, y: 0.611, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -52,7 +52,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -0.008807719, y: -0.0022019148}
@@ -85,7 +85,7 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
---- !u!114 &114268879546293458
+--- !u!114 &114873438686241870
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -116,22 +116,22 @@ MonoBehaviour:
       hideUnused: 0
       transitions:
       - fsmEvent:
-          name: Pickup
+          name: Picked Up
           isSystemEvent: 0
-          isGlobal: 1
+          isGlobal: 0
         toState: State 2
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
       actionData:
         actionNames:
-        - HutongGames.PlayMaker.Actions.Collision2dEvent
+        - HutongGames.PlayMaker.Actions.Trigger2dEvent
         customNames:
         - 
         actionEnabled: 01
         actionIsOpen: 01
         actionStartIndex: 00000000
-        actionHashCodes: 69cd8c01
+        actionHashCodes: 49491604
         unityObjectParams: []
         fsmGameObjectParams:
         - useVariable: 1
@@ -166,13 +166,7 @@ MonoBehaviour:
         fsmVarParams: []
         fsmArrayParams: []
         fsmEnumParams: []
-        fsmFloatParams:
-        - useVariable: 1
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 0
+        fsmFloatParams: []
         fsmIntParams: []
         fsmBoolParams: []
         fsmVector2Params: []
@@ -181,22 +175,21 @@ MonoBehaviour:
         fsmRectParams: []
         fsmQuaternionParams: []
         stringParams:
-        - Pickup
+        - Picked Up
         byteData: 00000000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 14000000070000001200000017000000130000000f000000
+        paramDataType: 1400000007000000120000001700000013000000
         paramName:
         - gameObject
-        - collision
+        - trigger
         - collideTag
         - sendEvent
         - storeCollider
-        - storeForce
-        paramDataPos: 000000000000000000000000000000000000000000000000
-        paramByteDataSize: 000000000400000000000000000000000000000000000000
+        paramDataPos: 0000000000000000000000000000000000000000
+        paramByteDataSize: 0000000004000000000000000000000000000000
     - name: State 2
       description: 
       colorIndex: 0
@@ -228,7 +221,7 @@ MonoBehaviour:
         functionCallParams: []
         fsmTemplateControlParams: []
         fsmEventTargetParams:
-        - target: 4
+        - target: 1
           excludeSelf:
             useVariable: 0
             name: 
@@ -237,10 +230,10 @@ MonoBehaviour:
             networkSync: 0
             value: 0
           gameObject:
-            ownerOption: 0
+            ownerOption: 1
             gameObject:
-              useVariable: 0
-              name: 
+              useVariable: 1
+              name: Wizard
               tooltip: 
               showInInspector: 0
               networkSync: 0
@@ -288,7 +281,7 @@ MonoBehaviour:
         fsmRectParams: []
         fsmQuaternionParams: []
         stringParams:
-        - Pickup
+        - Pink
         byteData: 00
         arrayParamSizes: 
         arrayParamTypes: []
@@ -304,7 +297,13 @@ MonoBehaviour:
         paramDataPos: 0000000000000000000000000000000000000000
         paramByteDataSize: 0000000000000000000000000100000000000000
     events:
-    - name: Pickup
+    - name: Coin
+      isSystemEvent: 0
+      isGlobal: 1
+    - name: Picked Up
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: Pink
       isSystemEvent: 0
       isGlobal: 1
     globalTransitions: []
