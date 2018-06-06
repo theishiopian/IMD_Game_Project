@@ -354,9 +354,13 @@ public class ProceduralGenerator : MonoBehaviour
 	{
 		size = 5;
 
+		System.Random rand = new System.Random ();
+
 		map = new Room[5, 5];
 
 		Vector3 pos = new Vector3 ();
+
+		Vector3 spawnerpos = new Vector3 ();
 
 		Room start = new Room(RoomTypes.CROSS, 0, 0);
 
@@ -371,7 +375,12 @@ public class ProceduralGenerator : MonoBehaviour
 				{
 					roomOrder.Add (pos);
 					Instantiate(Rooms [(int)getAtCoords (x, y).type], pos, Quaternion.identity);
-                    Instantiate(spawner, pos, Quaternion.identity);
+
+					float spawnerX = rand.Next (-2,3);
+					float spawnerY = rand.Next (-2,3);
+
+					spawnerpos.Set (spawnerX*6.0f+0.5f,spawnerY*6.0f+0.5f,0.0f);
+                    Instantiate(spawner, spawnerpos, Quaternion.identity);
 				}
 			}
 		}
