@@ -376,11 +376,17 @@ public class ProceduralGenerator : MonoBehaviour
 					roomOrder.Add (pos);
 					Instantiate(Rooms [(int)getAtCoords (x, y).type], pos, Quaternion.identity);
 
-					float spawnerX = rand.Next (-2,3);
-					float spawnerY = rand.Next (-2,3);
 
-					spawnerpos.Set (spawnerX*6.0f+0.5f,spawnerY*6.0f+0.5f,0.0f);
-                    Instantiate(spawner, spawnerpos, Quaternion.identity);
+					int spawnercount = rand.Next (5);
+
+					if (x != 0 || y != 0)
+					for (int i = 0; i <= spawnercount; i++) 
+					{
+						float spawnerX = rand.Next (-2,2);
+						float spawnerY = rand.Next (-2,2);
+						spawnerpos.Set ((float)((x*6)+spawnerX+0.5f),(float)((y*6)+spawnerY+0.5f),0.0f);
+						Instantiate(spawner, spawnerpos, Quaternion.identity);
+					}
 				}
 			}
 		}
