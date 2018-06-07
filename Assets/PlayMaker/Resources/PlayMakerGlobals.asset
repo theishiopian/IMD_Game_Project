@@ -25,7 +25,13 @@ MonoBehaviour:
       showInInspector: 0
       networkSync: 0
       value: 0
-    intVariables: []
+    intVariables:
+    - useVariable: 1
+      name: RatKillsToCatSpawn
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
     boolVariables: []
     stringVariables: []
     vector2Variables: []
@@ -34,6 +40,12 @@ MonoBehaviour:
     rectVariables: []
     quaternionVariables: []
     gameObjectVariables:
+    - useVariable: 1
+      name: Manager
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: {fileID: 0}
     - useVariable: 1
       name: Staff
       tooltip: 
@@ -53,7 +65,7 @@ MonoBehaviour:
     enumVariables: []
     categories:
     - 
-    variableCategoryIDs: 00000000000000000000000000000000
+    variableCategoryIDs: 000000000000000000000000000000000000000000000000
   events:
   - Damage
   - Pickup
@@ -66,3 +78,4 @@ MonoBehaviour:
   - Play
   - Quit
   - Coin
+  - Kill

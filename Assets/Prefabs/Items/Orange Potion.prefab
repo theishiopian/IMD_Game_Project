@@ -23,7 +23,7 @@ GameObject:
   - component: {fileID: 61797494353065442}
   - component: {fileID: 95913354801668048}
   - component: {fileID: 114870798950501492}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Orange Potion
   m_TagString: Untagged
   m_Icon: {fileID: 0}

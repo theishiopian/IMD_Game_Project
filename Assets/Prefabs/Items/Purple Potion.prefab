@@ -23,7 +23,7 @@ GameObject:
   - component: {fileID: 61797494353065442}
   - component: {fileID: 95671552314051704}
   - component: {fileID: 114083476655160926}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Purple Potion
   m_TagString: Untagged
   m_Icon: {fileID: 0}
