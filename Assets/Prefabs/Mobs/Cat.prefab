@@ -39,7 +39,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1924557985883424}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.932, y: 0.437, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -462,7 +462,7 @@ MonoBehaviour:
           name: Death
           isSystemEvent: 0
           isGlobal: 0
-        toState: State 2
+        toState: Death
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
@@ -536,7 +536,7 @@ MonoBehaviour:
         - everyFrame
         paramDataPos: 000000000100000000000000010000000200000000000000
         paramByteDataSize: 000000000000000000000000000000000000000001000000
-    - name: State 2
+    - name: Death
       description: 
       colorIndex: 0
       position:
@@ -590,7 +590,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: {fileID: 1060197079871808, guid: 814a8d4ff08dadd448de2f878ab4a990,
+          value: {fileID: 1060197079871808, guid: d743a67c85bbec1439f1b24cb37c9b1d,
             type: 2}
         - useVariable: 0
           name: 
