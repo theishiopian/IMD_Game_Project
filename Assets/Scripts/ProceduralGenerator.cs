@@ -390,7 +390,7 @@ public class ProceduralGenerator : MonoBehaviour
 				}
 			}
 		}
-		//spawn boss room marker. will spawn boss room in the future
+		//spawn boss
 		Instantiate (marker, roomOrder.Last(), Quaternion.identity);
 	}
 }
