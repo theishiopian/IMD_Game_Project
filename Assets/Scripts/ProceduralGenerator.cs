@@ -376,21 +376,30 @@ public class ProceduralGenerator : MonoBehaviour
 					roomOrder.Add (pos);
 					Instantiate(Rooms [(int)getAtCoords (x, y).type], pos, Quaternion.identity);
 
+				}
+			}
+		}
 
-					int spawnercount = rand.Next (5);
+		for (int y = 2; y >= -2; y--) 
+		{
+			for (int x = -2; x  <= 2; x++) 
+			{
+				int spawnercount = rand.Next (5);
 
-					if (x != 0 || y != 0)
+				if ((x != 0 || y != 0)&&(getAtCoords(x, y) != null))
 					for (int i = 0; i <= spawnercount; i++) 
 					{
 						float spawnerX = rand.Next (-2,2);
 						float spawnerY = rand.Next (-2,2);
 						spawnerpos.Set ((float)((x*6)+spawnerX+0.5f),(float)((y*6)+spawnerY+0.5f),0.0f);
+						if(Vector3.Distance(spawnerpos,roomOrder.Last())>1.0f)
 						Instantiate(spawner, spawnerpos, Quaternion.identity);
 					}
-				}
 			}
 		}
+
 		//spawn boss
 		Instantiate (marker, roomOrder.Last(), Quaternion.identity);
 	}
+
 }
