@@ -366,6 +366,7 @@ public class ProceduralGenerator : MonoBehaviour
 
 		List<Vector3> roomOrder = new List<Vector3>();
 
+		//generate rooms
 		for (int y = 2; y >= -2; y--)
 		{
 			for (int x = -2; x <= 2; x++)
@@ -380,21 +381,24 @@ public class ProceduralGenerator : MonoBehaviour
 			}
 		}
 
+		//generate spawners
 		for (int y = 2; y >= -2; y--) 
 		{
 			for (int x = -2; x  <= 2; x++) 
 			{
 				int spawnercount = rand.Next (5);
 
-				if ((x != 0 || y != 0)&&(getAtCoords(x, y) != null))
+				if ((x != 0 || y != 0) && (getAtCoords (x, y) != null)) 
+				{
 					for (int i = 0; i <= spawnercount; i++) 
 					{
 						float spawnerX = rand.Next (-2,2);
 						float spawnerY = rand.Next (-2,2);
 						spawnerpos.Set ((float)((x*6)+spawnerX+0.5f),(float)((y*6)+spawnerY+0.5f),0.0f);
 						if(Vector3.Distance(spawnerpos,roomOrder.Last())>1.0f)
-						Instantiate(spawner, spawnerpos, Quaternion.identity);
+							Instantiate(spawner, spawnerpos, Quaternion.identity);
 					}
+				}
 			}
 		}
 
