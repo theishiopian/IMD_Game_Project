@@ -1,10 +1,13 @@
 fileFormatVersion: 2
 guid: 214945010d5063047bad601073d5ec54
-timeCreated: 1527572489
-licenseType: Free
+timeCreated: 1528405929
+licenseType: Pro
 MonoImporter:
+  externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - marker: {fileID: 1944594303717950, guid: 7146db7fc715d2b43903fb14f7aedb94, type: 2}
+  - spawner: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

@@ -23,6 +23,7 @@ GameObject:
   - component: {fileID: 61775669390077554}
   - component: {fileID: 50267248749091958}
   - component: {fileID: 114137222859684394}
+  - component: {fileID: 114677885850795274}
   m_Layer: 0
   m_Name: Rat
   m_TagString: Enemy
@@ -791,7 +792,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 0
+    preprocessed: 1
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -812,7 +813,7 @@ MonoBehaviour:
     handleCollisionEnter: 0
     handleCollisionExit: 0
     handleCollisionStay: 0
-    handleParticleCollision: 0
+    handleParticleCollision: 1
     handleControllerColliderHit: 0
     handleJointBreak: 0
     handleJointBreak2D: 0
@@ -824,7 +825,20 @@ MonoBehaviour:
     handleAnimatorMove: 0
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
-  eventHandlerComponentsAdded: 0
+  eventHandlerComponentsAdded: 1
+--- !u!114 &114677885850795274
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1604097773171892}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -2143779361, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TargetFSMs:
+  - {fileID: 114137222859684394}
 --- !u!212 &212323054551167262
 SpriteRenderer:
   m_ObjectHideFlags: 1

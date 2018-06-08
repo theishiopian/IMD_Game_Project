@@ -25,6 +25,7 @@ GameObject:
   - component: {fileID: 198257153427255340}
   - component: {fileID: 58232280567684532}
   - component: {fileID: 114201677582487042}
+  - component: {fileID: 114965340316497462}
   m_Layer: 0
   m_Name: Magic Missile
   m_TagString: Spell
@@ -557,7 +558,20 @@ MonoBehaviour:
     handleAnimatorMove: 0
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
-  eventHandlerComponentsAdded: 0
+  eventHandlerComponentsAdded: 1
+--- !u!114 &114965340316497462
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1969264330164366}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -501658088, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TargetFSMs:
+  - {fileID: 114201677582487042}
 --- !u!114 &114978967971533238
 MonoBehaviour:
   m_ObjectHideFlags: 1
