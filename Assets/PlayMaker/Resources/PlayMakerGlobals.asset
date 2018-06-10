@@ -33,6 +33,12 @@ MonoBehaviour:
       value: 0
     intVariables:
     - useVariable: 1
+      name: Active Weaopn
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
       name: Health
       tooltip: 
       showInInspector: 0
@@ -44,7 +50,13 @@ MonoBehaviour:
       showInInspector: 0
       networkSync: 0
       value: 0
-    boolVariables: []
+    boolVariables:
+    - useVariable: 1
+      name: IsFiring
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
     stringVariables: []
     vector2Variables: []
     vector3Variables: []
@@ -77,7 +89,7 @@ MonoBehaviour:
     enumVariables: []
     categories:
     - 
-    variableCategoryIDs: 0000000000000000000000000000000000000000000000000000000000000000
+    variableCategoryIDs: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
   events:
   - Damage
   - Pickup
