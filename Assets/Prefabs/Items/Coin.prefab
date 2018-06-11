@@ -277,7 +277,7 @@ MonoBehaviour:
             ownerOption: 1
             gameObject:
               useVariable: 1
-              name: Wizard
+              name: Manager
               tooltip: 
               showInInspector: 0
               networkSync: 0
