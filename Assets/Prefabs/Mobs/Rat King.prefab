@@ -23,6 +23,8 @@ GameObject:
   - component: {fileID: 114514159316898272}
   - component: {fileID: 61422899275198714}
   - component: {fileID: 50869917908811572}
+  - component: {fileID: 114370881676355034}
+  - component: {fileID: 114264962712477518}
   m_Layer: 0
   m_Name: Trapdoor
   m_TagString: Untagged
@@ -165,6 +167,32 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &114264962712477518
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1053692387771318}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1879487007, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TargetFSMs:
+  - {fileID: 114514159316898272}
+--- !u!114 &114370881676355034
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1053692387771318}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -501658088, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TargetFSMs:
+  - {fileID: 114514159316898272}
 --- !u!114 &114514159316898272
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -586,7 +614,7 @@ MonoBehaviour:
     handleAnimatorMove: 0
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
-  eventHandlerComponentsAdded: 0
+  eventHandlerComponentsAdded: 1
 --- !u!114 &114533517178003892
 MonoBehaviour:
   m_ObjectHideFlags: 1
