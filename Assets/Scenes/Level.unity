@@ -3632,6 +3632,48 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 223169689}
+--- !u!1001 &313451954
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4001890150809752, guid: c4acbbf85e207dc45ba89289adf8f474, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0.0033285692
+      objectReference: {fileID: 0}
+    - target: {fileID: 4001890150809752, guid: c4acbbf85e207dc45ba89289adf8f474, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -0.60289574
+      objectReference: {fileID: 0}
+    - target: {fileID: 4001890150809752, guid: c4acbbf85e207dc45ba89289adf8f474, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4001890150809752, guid: c4acbbf85e207dc45ba89289adf8f474, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4001890150809752, guid: c4acbbf85e207dc45ba89289adf8f474, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4001890150809752, guid: c4acbbf85e207dc45ba89289adf8f474, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4001890150809752, guid: c4acbbf85e207dc45ba89289adf8f474, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4001890150809752, guid: c4acbbf85e207dc45ba89289adf8f474, type: 2}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: c4acbbf85e207dc45ba89289adf8f474, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &524238039
 GameObject:
   m_ObjectHideFlags: 0
@@ -3675,7 +3717,7 @@ MonoBehaviour:
   fsm:
     dataVersion: 2
     usedInTemplate: {fileID: 0}
-    name: Fire Control FSM
+    name: Magic Missiles
     startState: Make Angle
     states:
     - name: Fire Magic Missile
@@ -8134,6 +8176,48 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 566073919}
+--- !u!1001 &641296815
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4001890150809752, guid: f853838b27989da4097752be382e7b76, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -0.7035376
+      objectReference: {fileID: 0}
+    - target: {fileID: 4001890150809752, guid: f853838b27989da4097752be382e7b76, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -0.59477085
+      objectReference: {fileID: 0}
+    - target: {fileID: 4001890150809752, guid: f853838b27989da4097752be382e7b76, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4001890150809752, guid: f853838b27989da4097752be382e7b76, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4001890150809752, guid: f853838b27989da4097752be382e7b76, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4001890150809752, guid: f853838b27989da4097752be382e7b76, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4001890150809752, guid: f853838b27989da4097752be382e7b76, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4001890150809752, guid: f853838b27989da4097752be382e7b76, type: 2}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: f853838b27989da4097752be382e7b76, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &647265371
 GameObject:
   m_ObjectHideFlags: 0
@@ -8419,6 +8503,48 @@ Transform:
   m_Father: {fileID: 1178414896}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &905241338
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4001890150809752, guid: b9c6b46c0de4dc14fa825dee7ed88ef6, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0.5693631
+      objectReference: {fileID: 0}
+    - target: {fileID: 4001890150809752, guid: b9c6b46c0de4dc14fa825dee7ed88ef6, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -0.042277798
+      objectReference: {fileID: 0}
+    - target: {fileID: 4001890150809752, guid: b9c6b46c0de4dc14fa825dee7ed88ef6, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4001890150809752, guid: b9c6b46c0de4dc14fa825dee7ed88ef6, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4001890150809752, guid: b9c6b46c0de4dc14fa825dee7ed88ef6, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4001890150809752, guid: b9c6b46c0de4dc14fa825dee7ed88ef6, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4001890150809752, guid: b9c6b46c0de4dc14fa825dee7ed88ef6, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4001890150809752, guid: b9c6b46c0de4dc14fa825dee7ed88ef6, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: b9c6b46c0de4dc14fa825dee7ed88ef6, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &943206834
 GameObject:
   m_ObjectHideFlags: 0
@@ -8986,7 +9112,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &943206837
 MonoBehaviour:
@@ -13676,7 +13802,7 @@ RectTransform:
   - {fileID: 223169690}
   - {fileID: 566073920}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -14527,7 +14653,7 @@ Transform:
   - {fileID: 1718933090}
   - {fileID: 1908216711}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!50 &1178414897
 Rigidbody2D:
@@ -20602,6 +20728,48 @@ MonoBehaviour:
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
   eventHandlerComponentsAdded: 0
+--- !u!1001 &1483578441
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4001890150809752, guid: eb4a3b4ba8b0b3545b2b4dbb3beb9f55, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -0.70624584
+      objectReference: {fileID: 0}
+    - target: {fileID: 4001890150809752, guid: eb4a3b4ba8b0b3545b2b4dbb3beb9f55, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0.055220976
+      objectReference: {fileID: 0}
+    - target: {fileID: 4001890150809752, guid: eb4a3b4ba8b0b3545b2b4dbb3beb9f55, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4001890150809752, guid: eb4a3b4ba8b0b3545b2b4dbb3beb9f55, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4001890150809752, guid: eb4a3b4ba8b0b3545b2b4dbb3beb9f55, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4001890150809752, guid: eb4a3b4ba8b0b3545b2b4dbb3beb9f55, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4001890150809752, guid: eb4a3b4ba8b0b3545b2b4dbb3beb9f55, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4001890150809752, guid: eb4a3b4ba8b0b3545b2b4dbb3beb9f55, type: 2}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: eb4a3b4ba8b0b3545b2b4dbb3beb9f55, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &1569440314
 GameObject:
   m_ObjectHideFlags: 0
@@ -20687,6 +20855,7 @@ GameObject:
   - component: {fileID: 1588120511}
   - component: {fileID: 1588120513}
   - component: {fileID: 1588120512}
+  - component: {fileID: 1588120514}
   m_Layer: 1
   m_Name: Staff Sprite
   m_TagString: Untagged
@@ -21369,8 +21538,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 271
-        y: 487.0078
+        x: 218.71875
+        y: 557.4531
         width: 116
         height: 32
       isBreakpoint: 0
@@ -21466,6 +21635,8 @@ MonoBehaviour:
         - HutongGames.PlayMaker.Actions.SetProperty
         - HutongGames.PlayMaker.Actions.SetProperty
         - HutongGames.PlayMaker.Actions.SetProperty
+        - HutongGames.PlayMaker.Actions.AudioStop
+        - HutongGames.PlayMaker.Actions.SetIntValue
         customNames:
         - 
         - 
@@ -21473,13 +21644,23 @@ MonoBehaviour:
         - 
         - 
         - 
-        actionEnabled: 010101010101
-        actionIsOpen: 010101010101
-        actionStartIndex: 00000000020000000400000006000000080000000a000000
-        actionHashCodes: 5ac852045ac852045ac852045ac852045ac852045ac85204
+        - 
+        - 
+        actionEnabled: 0101010101010101
+        actionIsOpen: 0101010101010101
+        actionStartIndex: 00000000020000000400000006000000080000000a0000000c0000000d000000
+        actionHashCodes: 5ac852045ac852045ac852045ac852045ac852045ac852048d4bb503603dd905
         unityObjectParams: []
         fsmGameObjectParams: []
-        fsmOwnerDefaultParams: []
+        fsmOwnerDefaultParams:
+        - ownerOption: 0
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
         animationCurveParams: []
         functionCallParams: []
         fsmTemplateControlParams: []
@@ -22284,7 +22465,19 @@ MonoBehaviour:
         fsmArrayParams: []
         fsmEnumParams: []
         fsmFloatParams: []
-        fsmIntParams: []
+        fsmIntParams:
+        - useVariable: 1
+          name: Active Weaopn
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
         fsmBoolParams: []
         fsmVector2Params: []
         fsmVector3Params: []
@@ -22292,12 +22485,12 @@ MonoBehaviour:
         fsmRectParams: []
         fsmQuaternionParams: []
         stringParams: []
-        byteData: 000000000000
+        byteData: 00000000000000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 240000000100000024000000010000002400000001000000240000000100000024000000010000002400000001000000
+        paramDataType: 24000000010000002400000001000000240000000100000024000000010000002400000001000000240000000100000014000000100000001000000001000000
         paramName:
         - targetProperty
         - everyFrame
@@ -22311,8 +22504,12 @@ MonoBehaviour:
         - everyFrame
         - targetProperty
         - everyFrame
-        paramDataPos: 000000000000000001000000010000000200000002000000030000000300000004000000040000000500000005000000
-        paramByteDataSize: 000000000100000000000000010000000000000001000000000000000100000000000000010000000000000001000000
+        - gameObject
+        - intVariable
+        - intValue
+        - everyFrame
+        paramDataPos: 00000000000000000100000001000000020000000200000003000000030000000400000004000000050000000500000000000000000000000100000006000000
+        paramByteDataSize: 00000000010000000000000001000000000000000100000000000000010000000000000001000000000000000100000000000000000000000000000001000000
     - name: Wait
       description: 
       colorIndex: 0
@@ -22402,22 +22599,32 @@ MonoBehaviour:
           name: FINISHED
           isSystemEvent: 1
           isGlobal: 0
-        toState: Wait for stop
+        toState: Wait
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
       actionData:
         actionNames:
         - HutongGames.PlayMaker.Actions.SetProperty
+        - HutongGames.PlayMaker.Actions.AudioPlay
         customNames:
         - 
-        actionEnabled: 01
-        actionIsOpen: 01
-        actionStartIndex: 00000000
-        actionHashCodes: 5ac85204
+        - 
+        actionEnabled: 0101
+        actionIsOpen: 0101
+        actionStartIndex: 0000000002000000
+        actionHashCodes: 5ac852041b142f01
         unityObjectParams: []
         fsmGameObjectParams: []
-        fsmOwnerDefaultParams: []
+        fsmOwnerDefaultParams:
+        - ownerOption: 0
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
         animationCurveParams: []
         functionCallParams: []
         fsmTemplateControlParams: []
@@ -22557,11 +22764,24 @@ MonoBehaviour:
           setProperty: 1
         layoutOptionParams: []
         fsmStringParams: []
-        fsmObjectParams: []
+        fsmObjectParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          typeName: UnityEngine.AudioClip
+          value: {fileID: 8300000, guid: 14b4ff8bc1413db4680731bb4a991754, type: 3}
         fsmVarParams: []
         fsmArrayParams: []
         fsmEnumParams: []
-        fsmFloatParams: []
+        fsmFloatParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
         fsmIntParams: []
         fsmBoolParams: []
         fsmVector2Params: []
@@ -22569,18 +22789,23 @@ MonoBehaviour:
         fsmColorParams: []
         fsmRectParams: []
         fsmQuaternionParams: []
-        stringParams: []
+        stringParams:
+        - 
         byteData: 00
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 2400000001000000
+        paramDataType: 2400000001000000140000000f0000001800000017000000
         paramName:
         - targetProperty
         - everyFrame
-        paramDataPos: 0000000000000000
-        paramByteDataSize: 0000000001000000
+        - gameObject
+        - volume
+        - oneShotClip
+        - finishedEvent
+        paramDataPos: 000000000000000000000000000000000000000000000000
+        paramByteDataSize: 000000000100000000000000000000000000000000000000
     - name: Activate Shit
       description: 
       colorIndex: 0
@@ -22598,22 +22823,32 @@ MonoBehaviour:
           name: FINISHED
           isSystemEvent: 1
           isGlobal: 0
-        toState: Wait for stop
+        toState: Wait
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
       actionData:
         actionNames:
         - HutongGames.PlayMaker.Actions.SetProperty
+        - HutongGames.PlayMaker.Actions.AudioPlay
         customNames:
         - 
-        actionEnabled: 01
-        actionIsOpen: 01
-        actionStartIndex: 00000000
-        actionHashCodes: 5ac85204
+        - 
+        actionEnabled: 0101
+        actionIsOpen: 0101
+        actionStartIndex: 0000000002000000
+        actionHashCodes: 5ac852041b142f01
         unityObjectParams: []
         fsmGameObjectParams: []
-        fsmOwnerDefaultParams: []
+        fsmOwnerDefaultParams:
+        - ownerOption: 0
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
         animationCurveParams: []
         functionCallParams: []
         fsmTemplateControlParams: []
@@ -22753,11 +22988,24 @@ MonoBehaviour:
           setProperty: 1
         layoutOptionParams: []
         fsmStringParams: []
-        fsmObjectParams: []
+        fsmObjectParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          typeName: UnityEngine.AudioClip
+          value: {fileID: 8300000, guid: 844bef867ba9cfd41b0ff6cc99f3fcff, type: 3}
         fsmVarParams: []
         fsmArrayParams: []
         fsmEnumParams: []
-        fsmFloatParams: []
+        fsmFloatParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
         fsmIntParams: []
         fsmBoolParams: []
         fsmVector2Params: []
@@ -22765,18 +23013,23 @@ MonoBehaviour:
         fsmColorParams: []
         fsmRectParams: []
         fsmQuaternionParams: []
-        stringParams: []
+        stringParams:
+        - 
         byteData: 00
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 2400000001000000
+        paramDataType: 2400000001000000140000000f0000001800000017000000
         paramName:
         - targetProperty
         - everyFrame
-        paramDataPos: 0000000000000000
-        paramByteDataSize: 0000000001000000
+        - gameObject
+        - volume
+        - oneShotClip
+        - finishedEvent
+        paramDataPos: 000000000000000000000000000000000000000000000000
+        paramByteDataSize: 000000000100000000000000000000000000000000000000
     - name: Activate Laser
       description: 
       colorIndex: 0
@@ -22794,22 +23047,32 @@ MonoBehaviour:
           name: FINISHED
           isSystemEvent: 1
           isGlobal: 0
-        toState: Wait for stop
+        toState: Wait
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
       actionData:
         actionNames:
         - HutongGames.PlayMaker.Actions.SetProperty
+        - HutongGames.PlayMaker.Actions.AudioPlay
         customNames:
         - 
-        actionEnabled: 01
-        actionIsOpen: 01
-        actionStartIndex: 00000000
-        actionHashCodes: 5ac85204
+        - 
+        actionEnabled: 0101
+        actionIsOpen: 0101
+        actionStartIndex: 0000000002000000
+        actionHashCodes: 5ac852041b142f01
         unityObjectParams: []
         fsmGameObjectParams: []
-        fsmOwnerDefaultParams: []
+        fsmOwnerDefaultParams:
+        - ownerOption: 0
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
         animationCurveParams: []
         functionCallParams: []
         fsmTemplateControlParams: []
@@ -22949,11 +23212,24 @@ MonoBehaviour:
           setProperty: 1
         layoutOptionParams: []
         fsmStringParams: []
-        fsmObjectParams: []
+        fsmObjectParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          typeName: UnityEngine.AudioClip
+          value: {fileID: 8300000, guid: 5b9674526b759f247ac0c0bb5019ddec, type: 3}
         fsmVarParams: []
         fsmArrayParams: []
         fsmEnumParams: []
-        fsmFloatParams: []
+        fsmFloatParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
         fsmIntParams: []
         fsmBoolParams: []
         fsmVector2Params: []
@@ -22961,18 +23237,23 @@ MonoBehaviour:
         fsmColorParams: []
         fsmRectParams: []
         fsmQuaternionParams: []
-        stringParams: []
+        stringParams:
+        - 
         byteData: 00
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 2400000001000000
+        paramDataType: 2400000001000000140000000f0000001800000017000000
         paramName:
         - targetProperty
         - everyFrame
-        paramDataPos: 0000000000000000
-        paramByteDataSize: 0000000001000000
+        - gameObject
+        - volume
+        - oneShotClip
+        - finishedEvent
+        paramDataPos: 000000000000000000000000000000000000000000000000
+        paramByteDataSize: 000000000100000000000000000000000000000000000000
     - name: Activate Force Field
       description: 
       colorIndex: 0
@@ -22990,22 +23271,32 @@ MonoBehaviour:
           name: FINISHED
           isSystemEvent: 1
           isGlobal: 0
-        toState: Wait for stop
+        toState: Wait
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
       actionData:
         actionNames:
         - HutongGames.PlayMaker.Actions.SetProperty
+        - HutongGames.PlayMaker.Actions.AudioPlay
         customNames:
         - 
-        actionEnabled: 01
-        actionIsOpen: 01
-        actionStartIndex: 00000000
-        actionHashCodes: 5ac85204
+        - 
+        actionEnabled: 0101
+        actionIsOpen: 0101
+        actionStartIndex: 0000000002000000
+        actionHashCodes: 5ac852041b142f01
         unityObjectParams: []
         fsmGameObjectParams: []
-        fsmOwnerDefaultParams: []
+        fsmOwnerDefaultParams:
+        - ownerOption: 0
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
         animationCurveParams: []
         functionCallParams: []
         fsmTemplateControlParams: []
@@ -23145,11 +23436,24 @@ MonoBehaviour:
           setProperty: 1
         layoutOptionParams: []
         fsmStringParams: []
-        fsmObjectParams: []
+        fsmObjectParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          typeName: UnityEngine.AudioClip
+          value: {fileID: 8300000, guid: 6b7b4b0d32877014b9813f8a2206ca5c, type: 3}
         fsmVarParams: []
         fsmArrayParams: []
         fsmEnumParams: []
-        fsmFloatParams: []
+        fsmFloatParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
         fsmIntParams: []
         fsmBoolParams: []
         fsmVector2Params: []
@@ -23157,18 +23461,23 @@ MonoBehaviour:
         fsmColorParams: []
         fsmRectParams: []
         fsmQuaternionParams: []
-        stringParams: []
+        stringParams:
+        - 
         byteData: 00
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 2400000001000000
+        paramDataType: 2400000001000000140000000f0000001800000017000000
         paramName:
         - targetProperty
         - everyFrame
-        paramDataPos: 0000000000000000
-        paramByteDataSize: 0000000001000000
+        - gameObject
+        - volume
+        - oneShotClip
+        - finishedEvent
+        paramDataPos: 000000000000000000000000000000000000000000000000
+        paramByteDataSize: 000000000100000000000000000000000000000000000000
     - name: Become Magical
       description: 
       colorIndex: 0
@@ -23186,22 +23495,32 @@ MonoBehaviour:
           name: FINISHED
           isSystemEvent: 1
           isGlobal: 0
-        toState: Wait for stop
+        toState: Wait
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
       actionData:
         actionNames:
         - HutongGames.PlayMaker.Actions.SetProperty
+        - HutongGames.PlayMaker.Actions.AudioPlay
         customNames:
         - 
-        actionEnabled: 01
-        actionIsOpen: 01
-        actionStartIndex: 00000000
-        actionHashCodes: 5ac85204
+        - 
+        actionEnabled: 0101
+        actionIsOpen: 0101
+        actionStartIndex: 0000000002000000
+        actionHashCodes: 5ac852041b142f01
         unityObjectParams: []
         fsmGameObjectParams: []
-        fsmOwnerDefaultParams: []
+        fsmOwnerDefaultParams:
+        - ownerOption: 0
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
         animationCurveParams: []
         functionCallParams: []
         fsmTemplateControlParams: []
@@ -23341,11 +23660,24 @@ MonoBehaviour:
           setProperty: 1
         layoutOptionParams: []
         fsmStringParams: []
-        fsmObjectParams: []
+        fsmObjectParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          typeName: UnityEngine.AudioClip
+          value: {fileID: 8300000, guid: 881d05b0a3e190c41a2093ff0e0218de, type: 3}
         fsmVarParams: []
         fsmArrayParams: []
         fsmEnumParams: []
-        fsmFloatParams: []
+        fsmFloatParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
         fsmIntParams: []
         fsmBoolParams: []
         fsmVector2Params: []
@@ -23353,18 +23685,23 @@ MonoBehaviour:
         fsmColorParams: []
         fsmRectParams: []
         fsmQuaternionParams: []
-        stringParams: []
+        stringParams:
+        - 
         byteData: 00
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 2400000001000000
+        paramDataType: 2400000001000000140000000f0000001800000017000000
         paramName:
         - targetProperty
         - everyFrame
-        paramDataPos: 0000000000000000
-        paramByteDataSize: 0000000001000000
+        - gameObject
+        - volume
+        - oneShotClip
+        - finishedEvent
+        paramDataPos: 000000000000000000000000000000000000000000000000
+        paramByteDataSize: 000000000100000000000000000000000000000000000000
     events:
     - name: FINISHED
       isSystemEvent: 1
@@ -23425,7 +23762,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -23479,6 +23816,128 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!82 &1588120514
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1588120509}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+--- !u!1001 &1601414069
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4001890150809752, guid: df2d7ddf15cd03b42b61bbc8226199ef, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0.55582154
+      objectReference: {fileID: 0}
+    - target: {fileID: 4001890150809752, guid: df2d7ddf15cd03b42b61bbc8226199ef, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -0.55685467
+      objectReference: {fileID: 0}
+    - target: {fileID: 4001890150809752, guid: df2d7ddf15cd03b42b61bbc8226199ef, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4001890150809752, guid: df2d7ddf15cd03b42b61bbc8226199ef, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4001890150809752, guid: df2d7ddf15cd03b42b61bbc8226199ef, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4001890150809752, guid: df2d7ddf15cd03b42b61bbc8226199ef, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4001890150809752, guid: df2d7ddf15cd03b42b61bbc8226199ef, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4001890150809752, guid: df2d7ddf15cd03b42b61bbc8226199ef, type: 2}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: df2d7ddf15cd03b42b61bbc8226199ef, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &1718933089
 GameObject:
   m_ObjectHideFlags: 0
@@ -23684,7 +24143,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1908216710
 GameObject:
@@ -23825,7 +24284,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2118907627
 GameObject:
@@ -23870,7 +24329,7 @@ MonoBehaviour:
   fsm:
     dataVersion: 2
     usedInTemplate: {fileID: 0}
-    name: Fire Control FSM
+    name: Pink Missiles
     startState: Make Angle
     states:
     - name: Fire Pink Missile
