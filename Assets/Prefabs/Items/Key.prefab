@@ -201,13 +201,15 @@ MonoBehaviour:
       transitions: []
       actionData:
         actionNames:
-        - HutongGames.PlayMaker.Actions.LoadLevel
+        - HutongGames.PlayMaker.Actions.DestroySelf
+        - HutongGames.PlayMaker.Actions.SetBoolValue
         customNames:
         - 
-        actionEnabled: 01
-        actionIsOpen: 01
-        actionStartIndex: 00000000
-        actionHashCodes: e688d305
+        - 
+        actionEnabled: 0101
+        actionIsOpen: 0101
+        actionStartIndex: 0000000001000000
+        actionHashCodes: 62f9520327fbe103
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams: []
@@ -217,13 +219,7 @@ MonoBehaviour:
         fsmEventTargetParams: []
         fsmPropertyParams: []
         layoutOptionParams: []
-        fsmStringParams:
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: Credits
+        fsmStringParams: []
         fsmObjectParams: []
         fsmVarParams: []
         fsmArrayParams: []
@@ -237,29 +233,37 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: 0
+        - useVariable: 1
+          name: Has Key
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
         fsmVector2Params: []
         fsmVector3Params: []
         fsmColorParams: []
         fsmRectParams: []
         fsmQuaternionParams: []
-        stringParams:
-        - 
-        - 
-        byteData: 0000
+        stringParams: []
+        byteData: 00
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 120000000100000001000000170000001100000017000000
+        paramDataType: 11000000110000001100000001000000
         paramName:
-        - levelName
-        - additive
-        - async
-        - loadedEvent
-        - dontDestroyOnLoad
-        - failedEvent
-        paramDataPos: 000000000000000001000000000000000000000001000000
-        paramByteDataSize: 000000000100000001000000000000000000000000000000
+        - detachChildren
+        - boolVariable
+        - boolValue
+        - everyFrame
+        paramDataPos: 00000000010000000200000000000000
+        paramByteDataSize: 00000000000000000000000001000000
     events:
     - name: Picked Up
       isSystemEvent: 0
